@@ -1,0 +1,44 @@
+main {
+  section {
+    width: 100%;
+    overflow: hidden;
+    border: #dcdcdc solid 2px;
+    border-radius: 15px;
+    padding: 25px 0;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background: #f0f0f0;
+    @include media(mobile) {
+      text-align: center;
+    };
+
+    img {
+      width: 100px;
+      float: left;
+      padding-left: 30px;
+      @include media(mobile) {
+        padding-left: 0;
+        float: none;
+      };
+    }
+
+    h1 {
+      float: left;
+      color: #aaaaaa;
+      margin: 0;
+      font-size: 65px;
+      padding-left: 20px;
+      font-weight: 600;
+      @include media(tablet) {
+        padding-top: 20px;
+        font-size: 43px;
+      };
+      @include media(mobile) {
+        padding-left: 0;
+        float: none;
+        padding-top: 10px;
+      };
+    }
+  }
+}

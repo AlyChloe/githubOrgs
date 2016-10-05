@@ -1,0 +1,27 @@
+nav {
+  text-align: center;
+  padding: 0 0 50px 0;
+
+  #submit {
+    padding: 15px 25px;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.15);
+    background-color: #60b044;
+    background-image: linear-gradient(#8add6d, #60b044);
+    border: #5ca941 solid 1px;
+    font-size: 20px;
+    box-shadow: 0 2px 12px 0 #b6d8f4;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+
+    &:hover, &:active {
+      background-color: #5ca941;
+      background-image: linear-gradient(#5ca941, #60b044);
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}

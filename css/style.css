@@ -1,0 +1,74 @@
+header {
+  padding: 10px 0; }
+  header h1 {
+    color: #234766;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400; }
+
+main section {
+  width: 100%;
+  overflow: hidden;
+  border: #dcdcdc solid 2px;
+  border-radius: 15px;
+  padding: 25px 0;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background: #f0f0f0; }
+  @media only screen and (max-width: 500px) {
+    main section {
+      text-align: center; } }
+  main section img {
+    width: 100px;
+    float: left;
+    padding-left: 30px; }
+    @media only screen and (max-width: 500px) {
+      main section img {
+        padding-left: 0;
+        float: none; } }
+  main section h1 {
+    float: left;
+    color: #aaaaaa;
+    margin: 0;
+    font-size: 65px;
+    padding-left: 20px;
+    font-weight: 600; }
+    @media only screen and (max-width: 680px) {
+      main section h1 {
+        padding-top: 20px;
+        font-size: 43px; } }
+    @media only screen and (max-width: 500px) {
+      main section h1 {
+        padding-left: 0;
+        float: none;
+        padding-top: 10px; } }
+
+nav {
+  text-align: center;
+  padding: 0 0 50px 0; }
+  nav #submit {
+    padding: 15px 25px;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
+    background-color: #60b044;
+    background-image: linear-gradient(#8add6d, #60b044);
+    border: #5ca941 solid 1px;
+    font-size: 20px;
+    box-shadow: 0 2px 12px 0 #b6d8f4;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer; }
+    nav #submit:hover, nav #submit:active {
+      background-color: #5ca941;
+      background-image: linear-gradient(#5ca941, #60b044); }
+    nav #submit:focus {
+      outline: none; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 60%, #fff), linear-gradient(70deg, #e0f1ff 32%, #fffae3); }
+
+/*# sourceMappingURL=style.css.map */
